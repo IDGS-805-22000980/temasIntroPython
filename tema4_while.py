@@ -15,7 +15,7 @@ x  = int(input("numero"))
 while cont<10:
     cont=cont+1
     result=x * cont
-    print(result)
+    print("{} * {} = {}".format(x, cont, result))
     
 
 
