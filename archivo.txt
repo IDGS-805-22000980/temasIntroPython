@@ -1,0 +1,6 @@
+
+Historial de ventas:
+Comprador: Luis, Total: $21.60
+Comprador: Cervera, Total: $102.00
+
+Total general de todas las ventas: $123.60

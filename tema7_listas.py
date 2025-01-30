@@ -1,4 +1,5 @@
 #lista
+"""
 lista1=[10,5,3]
 lista2=[1.5,2.66,1.70,89.2]
 lista3=["Lunes","Martes","Miercoles"]
@@ -38,7 +39,7 @@ print(lista5)
 print(lista1)
 lista1.pop()
 print(lista1)
-
+"""
 
 
 
@@ -52,6 +53,8 @@ Numeros impares de la lista: iiiiiii
 
 cant=0
 lista=[]
+listaPar=[]
+listaIn=[]
 print("Dame una cantidad de numeros")
 cant = int(input(""))
 
@@ -61,14 +64,18 @@ for x in range(cant):
     
 
 print(lista)
-for numero in lista:
+for numero in range(len(lista)):
     if numero % 2 == 0:
-        print(f"{numero} es par")
+        listaPar.append((lista[numero]))
     else:
-        print(f"{numero} es impar")
+        listaIn.append(lista[numero])
 
 
+print("Los números pares son: ",listaPar)
+print("Los números inpares son: ",listaIn)
 
+
+"""
 lista1.sort()
 print(lista1)
 lista1.reverse()
@@ -79,3 +86,4 @@ print(lista1)
 
 lista1.clear()
 print(lista1)
+"""
